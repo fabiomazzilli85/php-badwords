@@ -13,4 +13,5 @@ echo "Il paragrafo in uppercase è: " . strtoupper ($paragrafo) . "<br>";
 // Converte il paragrafo inserito dall'utente in uppercase.
 
 echo "Ho censurato la tua parola con: " . str_replace($censura, "***", $censura);
+// Ho convertito la parola inserita dall'utente con tre asterischi.
 ?>
