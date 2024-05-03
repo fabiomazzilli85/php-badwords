@@ -16,10 +16,9 @@
 
     <main>
         <form action="server.php" method="POST">
-            <label for="">Scrivi un paragrafo:</label>
-            <input type="text" id="paragrafo" name="paragrafo" placeholder="Il motto nella mia vita è..."><br>
-            <label for="">Parola da censurare:</label>
-            <input type="text" id="censura" name="censura" placeholder="Per favore sii scurrile"><br>
+            <textarea id="paragrafo" name="paragrafo" cols="50">Tutte le famiglie felici sono uguali, ogni famiglia infelice è infelice a modo suo.</textarea>
+            <label for="">Parola da ricercare:</label>
+            <input type="text" id="censura" name="censura" placeholder="Ricerca parola"><br>
             <button type="submit">Invia</button>
         </form>
     </main>
