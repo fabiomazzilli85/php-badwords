@@ -6,6 +6,7 @@
     <title>PHP Badwords</title>
     <style>
         body {font-family: arial}
+        button {background-color: coral; color: white; border: none; padding: 5px}
     </style>
 </head>
 <body>
